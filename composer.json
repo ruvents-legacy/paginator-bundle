@@ -1,0 +1,33 @@
+{
+    "name": "ruvents/paginator-bundle",
+    "description": "RUVENTS Paginator Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov@ruvents.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ruvents\\Paginator\\": ""
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ruvents/paginator": "^0.1",
+        "symfony/dependency-injection": "^3.0 || ^4.0",
+        "symfony/event-dispatcher": "^3.0 || ^4.0",
+        "symfony/http-kernel": "^3.0 || ^4.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
