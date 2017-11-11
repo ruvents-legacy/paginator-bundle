@@ -1,6 +1,6 @@
 <?php
 
-namespace Ruvents\Paginator\DependencyInjection\Compiler;
+namespace Ruvents\PaginatorBundle\DependencyInjection\Compiler;
 
 use Ruvents\Paginator\Paginator;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

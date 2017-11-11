@@ -1,8 +1,8 @@
 <?php
 
-namespace Ruvents\Paginator\DependencyInjection;
+namespace Ruvents\PaginatorBundle\DependencyInjection;
 
-use Ruvents\Paginator\EventListener\PageOutOfRangeExceptionListener;
+use Ruvents\PaginatorBundle\EventListener\PageOutOfRangeExceptionListener;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 

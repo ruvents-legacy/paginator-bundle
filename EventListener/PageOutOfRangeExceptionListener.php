@@ -1,6 +1,6 @@
 <?php
 
-namespace Ruvents\Paginator\EventListener;
+namespace Ruvents\PaginatorBundle\EventListener;
 
 use Ruvents\Paginator\Exception\PageOutOfRangeException;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;

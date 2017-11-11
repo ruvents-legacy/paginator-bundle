@@ -1,8 +1,8 @@
 <?php
 
-namespace Ruvents\Paginator;
+namespace Ruvents\PaginatorBundle;
 
-use Ruvents\Paginator\DependencyInjection\Compiler\AddTwigPathPass;
+use Ruvents\PaginatorBundle\DependencyInjection\Compiler\AddTwigPathPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
