@@ -1,23 +1,23 @@
 {
-    "name": "ruvents/paginator-bundle",
-    "description": "RUVENTS Paginator Bundle",
+    "name": "ruwork/paginator-bundle",
+    "description": "Ruwork Paginator Bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
         {
             "name": "Valentin Udaltsov",
-            "email": "udaltsov@ruvents.com"
+            "email": "udaltsov@ruwork.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Ruvents\\PaginatorBundle\\": ""
+            "Ruwork\\PaginatorBundle\\": ""
         }
     },
     "require": {
         "php": "^7.1",
-        "ruvents/paginator": "^0.1",
+        "ruwork/paginator": "^0.1",
         "symfony/dependency-injection": "^3.0 || ^4.0",
         "symfony/event-dispatcher": "^3.0 || ^4.0",
         "symfony/http-kernel": "^3.0 || ^4.0"

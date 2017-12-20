@@ -1,12 +1,12 @@
 <?php
 
-namespace Ruvents\PaginatorBundle\DependencyInjection;
+namespace Ruwork\PaginatorBundle\DependencyInjection;
 
-use Ruvents\PaginatorBundle\EventListener\PageOutOfRangeExceptionListener;
+use Ruwork\PaginatorBundle\EventListener\PageOutOfRangeExceptionListener;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class RuventsPaginatorExtension extends Extension
+class RuworkPaginatorExtension extends Extension
 {
     /**
      * {@inheritdoc}

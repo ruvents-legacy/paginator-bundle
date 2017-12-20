@@ -1,12 +1,12 @@
-# RUVENTS Paginator Bundle
+# Ruwork Paginator Bundle
 
-Bundle to use [RUVENTS Paginator](https://github.com/ruvents/paginator) with Symfony.
+Bundle to use [RUWORK Paginator](https://github.com/ruwork/paginator) with Symfony.
 
-Replaces the `Ruvents\Paginator\Exception\PageOutOfRangeException` with a `Symfony\Component\HttpKernel\Exception\NotFoundHttpException`.
+Replaces the `Ruwork\Paginator\Exception\PageOutOfRangeException` with a `Symfony\Component\HttpKernel\Exception\NotFoundHttpException`.
 
 Registers a twig path alias for the library twig templates.
 
 ```twig
-{% embed '@RuventsPaginator/bootstrap_4.html.twig' with {paginator: paginator} %}
+{% embed '@RuworkPaginator/bootstrap_4.html.twig' with {paginator: paginator} %}
 {% endembed %}
 ```

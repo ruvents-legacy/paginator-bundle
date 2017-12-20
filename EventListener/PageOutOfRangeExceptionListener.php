@@ -1,8 +1,8 @@
 <?php
 
-namespace Ruvents\PaginatorBundle\EventListener;
+namespace Ruwork\PaginatorBundle\EventListener;
 
-use Ruvents\Paginator\Exception\PageOutOfRangeException;
+use Ruwork\Paginator\Exception\PageOutOfRangeException;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;

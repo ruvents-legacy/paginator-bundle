@@ -1,12 +1,12 @@
 <?php
 
-namespace Ruvents\PaginatorBundle;
+namespace Ruwork\PaginatorBundle;
 
-use Ruvents\PaginatorBundle\DependencyInjection\Compiler\AddTwigPathPass;
+use Ruwork\PaginatorBundle\DependencyInjection\Compiler\AddTwigPathPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RuventsPaginatorBundle extends Bundle
+class RuworkPaginatorBundle extends Bundle
 {
     /**
      * {@inheritdoc}
